@@ -1,0 +1,73 @@
+* body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.btn {
+    background-color: #f25bfa;
+    color: white;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.showcase {
+    background-image: url("https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+    padding-bottom: 10%;
+}
+
+.navbar-brand:hover {
+    color:#f25bfa;
+    transform: scale(1.2);
+}
+
+ul li a:hover {
+    
+    transform: scale(1.3);
+    border: 2px solid #f25bfa;
+    border-radius: 10px;
+}
+.tours-img:hover {
+   transform: scale(1.1);
+}
+#explore {
+    background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding-top: 30%;;
+}
+.explore-content {
+    min-height: 50vh;
+}
+@media (min-width: 992px) {
+    .explore-content {
+        width: 50%;
+    }
+}
+
+.places {
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    .places {
+        width: 75%;    
+    }
+}
+
+.places:hover {
+    transform: scale(1.2);
+}
+
+#contact {
+  
+    background-image: url("https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80");
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
