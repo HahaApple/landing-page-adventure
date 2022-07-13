@@ -71,3 +71,13 @@ ul li a:hover {
     padding-top: 10%;
     padding-bottom: 7%;
 }
+
+#img-left {
+    object-fit: cover;
+    height: 60%;
+}
+
+#img-right {
+    object-fit: cover;
+    height: 60%;
+}
